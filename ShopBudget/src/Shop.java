@@ -7,7 +7,7 @@ public class Shop {
 		
 		public Budget(int value) {
 			this.value=value;
-			System.out.println("Budget="+this.value);
+			System.out.println("Budget="+this.value) ;
 		}
 		
 		public synchronized void sellGoods(int total) {
