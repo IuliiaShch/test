@@ -18,7 +18,7 @@ public class Shop {
 		public void payMoney(int price) {
 			synchronized(this) {
 				this.value = this.value - price;			
-			System.out.println("Budget="+this.value + " substract money="+price+ " thread="+Thread.currentThread().getName());
+			System.out.println("Budget="+this.value + " substract money=" + price+ " thread="+Thread.currentThread().getName());
 			}
 		}
 		
